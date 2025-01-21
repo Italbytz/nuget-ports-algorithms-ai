@@ -1,4 +1,4 @@
-namespace Italbytz.Adapters.Algorithms.AI.Search.CSP.Solver;
+namespace Italbytz.Ports.Algorithms.AI.Search.CSP.Solver;
 
 public interface ICspSolver<TVar,TVal> where TVar : IVariable
 {

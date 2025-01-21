@@ -1,6 +1,6 @@
 using System;
 
-namespace Italbytz.Adapters.Algorithms.AI.Search.CSP;
+namespace Italbytz.Ports.Algorithms.AI.Search.CSP;
 
 public interface IVariable : IEquatable<IVariable>
 {

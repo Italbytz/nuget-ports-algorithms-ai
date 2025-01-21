@@ -1,4 +1,4 @@
-namespace Italbytz.Adapters.Algorithms.AI.Search.CSP.Solver.Inference;
+namespace Italbytz.Ports.Algorithms.AI.Search.CSP.Solver.Inference;
 
 public interface IInferenceStrategy<TVar,TVal> where TVar : IVariable
 {
