@@ -31,3 +31,6 @@ Here is a table of algorithms, the figure, name of the code in the book, and the
 
 The additional ports for Evolutionary Algorithms and Genetic Programming are currently mainly used for [logicGP](https://github.com/RobinNunkesser/csharp-console-logicgp) and provided in [Genetic Programming](https://github.com/Italbytz/nuget-ports-algorithms-ai/blob/main/Italbytz.Ports.Algorithms.AI/Italbytz.Ports.Algorithms.AI/GP).
 
+# Getting Started
+
+[csharp-mstest-ai](https://github.com/RobinNunkesser/csharp-mstest-ai) contains a set of unit tests demonstrating the use of the provided ports and adapters.
