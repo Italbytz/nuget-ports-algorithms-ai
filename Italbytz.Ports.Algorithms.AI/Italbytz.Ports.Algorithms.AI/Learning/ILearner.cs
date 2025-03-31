@@ -4,6 +4,17 @@
 
 namespace Italbytz.Ports.Algorithms.AI.Learning;
 
+/// <summary>
+/// Represents a machine learning algorithm that can train on a dataset,
+/// make predictions on examples or datasets, and evaluate its performance.
+/// </summary>
+/// <remarks>
+/// ILearner is the core interface for supervised learning algorithms.
+/// Implementations of this interface should be able to:
+/// - Train on a labeled dataset
+/// - Predict outcomes for new examples
+/// - Evaluate prediction accuracy on test data
+/// </remarks>
 public interface ILearner
 {
     void Train(IDataSet ds);
