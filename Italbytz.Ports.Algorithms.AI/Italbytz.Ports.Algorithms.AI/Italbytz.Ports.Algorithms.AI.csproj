@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
         <Nullable>enable</Nullable>
-        <PackageVersion>9.0.4</PackageVersion>
+        <PackageVersion>9.0.5</PackageVersion>
         <Authors>Robin Nunkesser</Authors>
         <PackageProjectUrl>https://italbytz.github.io/nuget-ports-algorithms-ai/</PackageProjectUrl>
         <Description>A set of helpful interfaces to use with Ports and Adapters.</Description>
@@ -12,6 +12,9 @@
         <PackageReadmeFile>introduction.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/Italbytz/nuget-ports-algorithms-ai</RepositoryUrl>
         <LangVersion>10</LangVersion>
+        <PackRelease>true</PackRelease>
+        <IncludeSource>true</IncludeSource>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
     <ItemGroup>
         <None Remove="AI\" />
