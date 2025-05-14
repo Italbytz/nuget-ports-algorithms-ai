@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.Continuous
+namespace Italbytz.AI.Search.Continuous
 {
     public interface ILPModel
     {

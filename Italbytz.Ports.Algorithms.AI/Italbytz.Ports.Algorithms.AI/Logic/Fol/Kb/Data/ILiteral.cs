@@ -3,9 +3,9 @@
 // Copyright (c) 2015 aima-java contributors
 
 using System;
-using Italbytz.Ports.Algorithms.AI.Logic.Fol.Parsing.Ast;
+using Italbytz.AI.Logic.Fol.Parsing.Ast;
 
-namespace Italbytz.Ports.Algorithms.AI.Logic.Fol.Kb.Data;
+namespace Italbytz.AI.Logic.Fol.Kb.Data;
 
 /// <summary>
 /// A literal is either an atomic sentence (a positive literal) or a 

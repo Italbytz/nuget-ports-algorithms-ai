@@ -1,16 +1,16 @@
 using System.Collections.Generic;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Crossover;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Fitness;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Initialization;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Mutation;
-using Italbytz.Ports.Algorithms.AI.Search.GP.PopulationManager;
-using Italbytz.Ports.Algorithms.AI.Search.GP.SearchSpace;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Selection;
-using Italbytz.Ports.Algorithms.AI.Search.GP.StoppingCriterion;
+using Italbytz.AI.Search.GP.Crossover;
+using Italbytz.AI.Search.GP.Fitness;
+using Italbytz.AI.Search.GP.Individuals;
+using Italbytz.AI.Search.GP.Initialization;
+using Italbytz.AI.Search.GP.Mutation;
+using Italbytz.AI.Search.GP.PopulationManager;
+using Italbytz.AI.Search.GP.SearchSpace;
+using Italbytz.AI.Search.GP.Selection;
+using Italbytz.AI.Search.GP.StoppingCriterion;
 using Microsoft.ML;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP;
+namespace Italbytz.AI.Search.GP;
 
 /// <summary>
 /// Interface representing a genetic program for evolutionary computation.

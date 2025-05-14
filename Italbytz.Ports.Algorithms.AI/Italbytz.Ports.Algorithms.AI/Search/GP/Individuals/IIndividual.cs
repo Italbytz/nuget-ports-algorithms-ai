@@ -8,7 +8,7 @@
 
 using System;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
+namespace Italbytz.AI.Search.GP.Individuals;
 
 /// <summary>
 /// Represents an individual in a genetic programming (GP) search algorithm.

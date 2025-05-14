@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.Informed
+namespace Italbytz.AI.Search.Informed
 {
     /// <summary>
     /// Search algorithms which make use of heuristics to guide the search

@@ -6,7 +6,7 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Selection;
+namespace Italbytz.AI.Search.GP.Selection;
 
 /// <summary>
 /// Defines an interface for selection operations in genetic programming.

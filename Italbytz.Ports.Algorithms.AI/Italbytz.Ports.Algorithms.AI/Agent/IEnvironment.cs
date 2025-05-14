@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Agent
+namespace Italbytz.AI.Agent
 {
     /// <summary>
     /// An abstract description of possible discrete Environments in which Agent(s)

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.CSP;
+namespace Italbytz.AI.Search.CSP;
 
 public interface IAssignment<TVar,TVal> : ICloneable
     where TVar : IVariable 

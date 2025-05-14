@@ -6,7 +6,7 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Mutation;
+namespace Italbytz.AI.Search.GP.Mutation;
 
 /// <summary>
 /// Defines an interface for mutation operations in genetic programming.

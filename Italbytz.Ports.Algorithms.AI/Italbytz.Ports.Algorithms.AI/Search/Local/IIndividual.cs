@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.Local
+namespace Italbytz.AI.Search.Local
 {
     /// <summary>
     /// A state in a genetic algorithm is represented as an individual from the

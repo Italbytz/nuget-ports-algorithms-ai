@@ -1,7 +1,7 @@
-using Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
+using Italbytz.AI.Search.GP.Individuals;
 using Microsoft.ML;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Fitness;
+namespace Italbytz.AI.Search.GP.Fitness;
 
 /// <summary>
 /// Defines a fitness function for genetic programming algorithms.

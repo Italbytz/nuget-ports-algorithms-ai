@@ -3,9 +3,9 @@
 // Copyright (c) 2015 aima-java contributors
 
 using System.Collections.Generic;
-using Italbytz.Ports.Algorithms.AI.Logic.Fol.Kb.Data;
+using Italbytz.AI.Logic.Fol.Kb.Data;
 
-namespace Italbytz.Ports.Algorithms.AI.Logic.Planning;
+namespace Italbytz.AI.Logic.Planning;
 
 /// <summary>
 /// Each state is represented as a conjunction of fluents that are ground, functionless atoms.

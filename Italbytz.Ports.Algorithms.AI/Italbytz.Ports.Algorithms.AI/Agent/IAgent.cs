@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Agent
+namespace Italbytz.AI.Agent
 {
     /// <summary>
     /// Agents interact with environments through sensors and actuators.

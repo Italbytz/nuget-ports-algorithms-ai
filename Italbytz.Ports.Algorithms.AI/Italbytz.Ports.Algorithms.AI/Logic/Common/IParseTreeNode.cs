@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Logic.Common;
+namespace Italbytz.AI.Logic.Common;
 
 public interface IParseTreeNode
 {

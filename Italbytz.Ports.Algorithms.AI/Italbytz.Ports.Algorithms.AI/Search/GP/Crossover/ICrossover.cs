@@ -1,4 +1,4 @@
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Crossover;
+namespace Italbytz.AI.Search.GP.Crossover;
 
 
 /// <summary>

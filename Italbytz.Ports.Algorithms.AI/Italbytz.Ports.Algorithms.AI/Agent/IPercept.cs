@@ -3,7 +3,7 @@
 // Copyright (c) 2015 aima-java contributors
 
 using System;
-namespace Italbytz.Ports.Algorithms.AI.Agent
+namespace Italbytz.AI.Agent
 {
     /// <summary>
     /// We use the term percept to refer the agent's perceptual inputs at any given

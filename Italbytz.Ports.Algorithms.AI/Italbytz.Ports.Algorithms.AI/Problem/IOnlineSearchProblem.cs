@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Problem
+namespace Italbytz.AI.Problem
 {
     /// <summary>
     /// An online search problem.

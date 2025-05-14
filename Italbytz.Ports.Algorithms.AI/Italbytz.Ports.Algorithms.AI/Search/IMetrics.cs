@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Italbytz.Ports.Algorithms.AI.Search
+namespace Italbytz.AI.Search
 {
     /// <summary>
     /// Stores key-value pairs for efficiency analysis.

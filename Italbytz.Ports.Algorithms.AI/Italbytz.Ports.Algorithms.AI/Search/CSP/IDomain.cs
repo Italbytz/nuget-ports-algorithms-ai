@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.CSP;
+namespace Italbytz.AI.Search.CSP;
 
 public interface IDomain<TVal> : IEnumerable<TVal>, IEquatable<IDomain<TVal>>
 {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Italbytz.Ports.Algorithms.AI.Problem;
+using Italbytz.AI.Problem;
 
-namespace Italbytz.Ports.Algorithms.AI.Search
+namespace Italbytz.AI.Search
 {
     /// <summary>
     /// Implementations of this interface are responsible for node creation and successor generation. They

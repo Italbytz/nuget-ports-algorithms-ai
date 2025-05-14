@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Search.Adversarial
+namespace Italbytz.AI.Search.Adversarial
 {
     /// <summary>
     /// Variant of the search interface. Since players can only control the next

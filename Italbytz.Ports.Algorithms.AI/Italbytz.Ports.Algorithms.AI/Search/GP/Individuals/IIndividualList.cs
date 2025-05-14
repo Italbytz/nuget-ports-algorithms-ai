@@ -8,7 +8,7 @@
 
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
+namespace Italbytz.AI.Search.GP.Individuals;
 
 /// <summary>
 /// Represents a list of individuals used in genetic programming.

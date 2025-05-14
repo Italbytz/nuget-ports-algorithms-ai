@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Italbytz.Ports.Algorithms.AI.Search
+namespace Italbytz.AI.Search
 {
     /// <summary>
     /// Nodes are the data structures from which the search tree is

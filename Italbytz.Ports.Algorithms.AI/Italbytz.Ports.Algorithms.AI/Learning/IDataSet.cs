@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Learning;
+namespace Italbytz.AI.Learning;
 
 
 /// <summary>

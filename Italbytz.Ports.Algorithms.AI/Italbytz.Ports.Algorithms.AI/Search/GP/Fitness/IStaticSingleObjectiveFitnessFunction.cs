@@ -6,7 +6,7 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Fitness;
+namespace Italbytz.AI.Search.GP.Fitness;
 
 /// <summary>
 /// Represents a static, single-objective fitness function for genetic programming.

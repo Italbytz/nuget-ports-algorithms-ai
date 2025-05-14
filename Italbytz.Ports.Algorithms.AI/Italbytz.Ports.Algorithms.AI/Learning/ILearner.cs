@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Learning;
+namespace Italbytz.AI.Learning;
 
 /// <summary>
 /// Represents a machine learning algorithm that can train on a dataset,

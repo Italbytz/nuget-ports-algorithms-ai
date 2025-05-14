@@ -2,9 +2,9 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-using Italbytz.Ports.Algorithms.AI.Logic.Common;
+using Italbytz.AI.Logic.Common;
 
-namespace Italbytz.Ports.Algorithms.AI.Logic.Fol.Parsing.Ast;
+namespace Italbytz.AI.Logic.Fol.Parsing.Ast;
 
 public interface IFolNode : IParseTreeNode
 {

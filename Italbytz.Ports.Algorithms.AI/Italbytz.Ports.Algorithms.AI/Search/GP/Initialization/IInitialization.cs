@@ -6,7 +6,7 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.Initialization;
+namespace Italbytz.AI.Search.GP.Initialization;
 
 /// <summary>
 /// Defines an interface for initialization operators in genetic programming.

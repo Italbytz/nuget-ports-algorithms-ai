@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.SearchSpace;
+namespace Italbytz.AI.Search.GP.SearchSpace;
 
 /// <summary>
 /// Represents a monomial in a Genetic Programming search space.

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.CSP;
+namespace Italbytz.AI.Search.CSP;
 
 public interface ICSP<TVar,TVal> where TVar : IVariable
 {

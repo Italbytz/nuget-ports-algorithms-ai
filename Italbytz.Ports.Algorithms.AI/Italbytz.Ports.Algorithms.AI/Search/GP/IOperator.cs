@@ -6,9 +6,9 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-using Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
+using Italbytz.AI.Search.GP.Individuals;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP;
+namespace Italbytz.AI.Search.GP;
 
 /// <summary>
 /// An operator that processes indiviuals. 

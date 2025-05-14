@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Learning;
+namespace Italbytz.AI.Learning;
 
 public interface IAttributeSpecification
 {

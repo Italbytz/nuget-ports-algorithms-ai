@@ -4,10 +4,10 @@
 
 using System;
 using System.Collections.Generic;
-using Italbytz.Ports.Algorithms.AI.Logic.Fol.Kb.Data;
-using Italbytz.Ports.Algorithms.AI.Logic.Fol.Parsing.Ast;
+using Italbytz.AI.Logic.Fol.Kb.Data;
+using Italbytz.AI.Logic.Fol.Parsing.Ast;
 
-namespace Italbytz.Ports.Algorithms.AI.Logic.Planning;
+namespace Italbytz.AI.Logic.Planning;
 
 /// <summary>
 /// Actions are described by a set of action schemas that implicitly define the 

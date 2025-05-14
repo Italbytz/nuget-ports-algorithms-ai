@@ -6,10 +6,10 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-using Italbytz.Ports.Algorithms.AI.Search.GP.Individuals;
-using Italbytz.Ports.Algorithms.AI.Search.GP.Initialization;
+using Italbytz.AI.Search.GP.Individuals;
+using Italbytz.AI.Search.GP.Initialization;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.PopulationManager;
+namespace Italbytz.AI.Search.GP.PopulationManager;
 
 /// <summary>
 /// Represents a manager for handling and manipulating a population of individuals in a genetic programming context.

@@ -2,7 +2,7 @@
 // MIT License
 // Copyright (c) 2015 aima-java contributors
 
-namespace Italbytz.Ports.Algorithms.AI.Agent
+namespace Italbytz.AI.Agent
 {
     /// <summary>
     /// Describes an Action that can or has been taken by an Agent via one of its

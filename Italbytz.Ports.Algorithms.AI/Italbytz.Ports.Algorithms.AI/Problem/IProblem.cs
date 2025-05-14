@@ -3,9 +3,9 @@
 // Copyright (c) 2015 aima-java contributors
 
 using System;
-using Italbytz.Ports.Algorithms.AI.Search;
+using Italbytz.AI.Search;
 
-namespace Italbytz.Ports.Algorithms.AI.Problem
+namespace Italbytz.AI.Problem
 {
     /// <summary>
     /// A formal problem definition.

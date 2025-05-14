@@ -1,4 +1,4 @@
-namespace Italbytz.Ports.Algorithms.AI.Search.Continuous
+namespace Italbytz.AI.Search.Continuous
 {
     public interface ILPConstraint
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.GP.SearchSpace;
+namespace Italbytz.AI.Search.GP.SearchSpace;
 
 /// <summary>
 /// Represents a literal in a genetic programming context, capable of making predictions on categorical data.

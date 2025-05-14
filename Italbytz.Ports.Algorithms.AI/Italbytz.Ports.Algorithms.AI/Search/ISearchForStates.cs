@@ -3,9 +3,9 @@
 // Copyright (c) 2015 aima-java contributors
 
 using System;
-using Italbytz.Ports.Algorithms.AI.Problem;
+using Italbytz.AI.Problem;
 
-namespace Italbytz.Ports.Algorithms.AI.Search
+namespace Italbytz.AI.Search
 {
     /// <summary>
     /// Interface for all search algorithms which forget the exploration history and

@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.Ports.Algorithms.AI.Search.Adversarial
+namespace Italbytz.AI.Search.Adversarial
 {
     /// <summary>
     /// A game can be formally defined as a kind of search problem with the following elements:
