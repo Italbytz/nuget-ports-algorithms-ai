@@ -26,6 +26,7 @@ Here is a table of algorithms, the figure, name of the code in the book, and the
 |6|202|CSP|[ICSP](https://github.com/Italbytz/nuget-ports-algorithms-ai/blob/main/Italbytz.Ports.Algorithms.AI/Italbytz.Ports.Algorithms.AI/Search/CSP/ICSP.cs)|
 |10.9|383|Planning|[IPlanningProblem](https://github.com/Italbytz/nuget-ports-algorithms-ai/blob/main/Italbytz.Ports.Algorithms.AI/Italbytz.Ports.Algorithms.AI/Logic/Planning/IPlanningProblem.cs)|
 |18.5|702|Learner|[ILearner](https://github.com/Italbytz/nuget-ports-algorithms-ai/blob/main/Italbytz.Ports.Algorithms.AI/Italbytz.Ports.Algorithms.AI/Learning/ILearner.cs)|
+|18.8|710|Cross-Validation|[ICrossValidation](/Italbytz.Adapters.Algorithms.AI/Italbytz.Adapters.Algorithms.AI/Learning/Inductive/ICrossValidation.cs)|
 
 ## Additional ports for Evolutionary Algorithms and Genetic Programming
 
