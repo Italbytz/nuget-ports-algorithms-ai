@@ -1,14 +1,18 @@
 using System;
 using System.Collections.Generic;
 
-namespace Italbytz.AI.Search.GP.SearchSpace;
+namespace Italbytz.AI.Search.EA.SearchSpace;
 
 /// <summary>
-/// Represents a monomial in a Genetic Programming search space.
+///     Represents a monomial in a Genetic Programming search space.
 /// </summary>
-/// <typeparam name="TCategory">The type of category used in the literals of the monomial.</typeparam>
+/// <typeparam name="TCategory">
+///     The type of category used in the literals of the
+///     monomial.
+/// </typeparam>
 /// <remarks>
-/// A monomial consists of a list of literals and a weight vector, and maintains predictions based on the current literals and weights.
+///     A monomial consists of a list of literals and a weight vector, and
+///     maintains predictions based on the current literals and weights.
 /// </remarks>
 public interface IMonomial<TCategory> : ICloneable
 {

@@ -8,14 +8,15 @@
 
 using System.Collections.Generic;
 
-namespace Italbytz.AI.Search.GP.Individuals;
+namespace Italbytz.AI.Search.EA.Individuals;
 
 /// <summary>
-/// Represents a list of individuals used in genetic programming.
+///     Represents a list of individuals used in genetic programming.
 /// </summary>
 /// <remarks>
-/// This interface extends IEnumerable to allow iteration over individuals
-/// and provides methods for adding, accessing, and retrieving random individuals from the collection.
+///     This interface extends IEnumerable to allow iteration over individuals
+///     and provides methods for adding, accessing, and retrieving random
+///     individuals from the collection.
 /// </remarks>
 public interface IIndividualList : IEnumerable<IIndividual>
 {

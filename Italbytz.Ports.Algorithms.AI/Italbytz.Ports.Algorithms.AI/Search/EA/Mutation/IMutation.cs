@@ -6,15 +6,18 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.AI.Search.GP.Mutation;
+namespace Italbytz.AI.Search.EA.Mutation;
 
 /// <summary>
-/// Defines an interface for mutation operations in genetic programming.
+///     Defines an interface for mutation operations in genetic programming.
 /// </summary>
 /// <remarks>
-/// Mutation operators introduce random changes into individuals of a population,
-/// which helps maintain genetic diversity and prevents premature convergence to local optima.
-/// These operators are essential components in genetic programming and evolutionary algorithms.
+///     Mutation operators introduce random changes into individuals of a
+///     population,
+///     which helps maintain genetic diversity and prevents premature convergence
+///     to local optima.
+///     These operators are essential components in genetic programming and
+///     evolutionary algorithms.
 /// </remarks>
 public interface IMutation : IOperator
 {

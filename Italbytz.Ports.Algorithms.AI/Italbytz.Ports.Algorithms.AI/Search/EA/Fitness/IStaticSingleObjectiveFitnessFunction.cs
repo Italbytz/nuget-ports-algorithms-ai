@@ -6,16 +6,18 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.AI.Search.GP.Initialization;
+namespace Italbytz.AI.Search.EA.Fitness;
 
 /// <summary>
-/// Defines an interface for initialization operators in genetic programming.
+///     Represents a static, single-objective fitness function for genetic
+///     programming.
 /// </summary>
 /// <remarks>
-/// Initialization operators are responsible for creating the initial population
-/// of individuals in genetic programming algorithms. This interface extends the
-/// base <see cref="IOperator"/> interface to categorize initialization methods.
+///     A static single-objective fitness function evaluates the fitness of an
+///     individual
+///     based on a single criterion.
 /// </remarks>
-public interface IInitialization : IOperator
+public interface
+    IStaticSingleObjectiveFitnessFunction : IFitnessFunction
 {
 }

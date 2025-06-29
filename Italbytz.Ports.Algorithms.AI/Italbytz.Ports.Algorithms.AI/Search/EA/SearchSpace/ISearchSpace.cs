@@ -6,18 +6,20 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.AI.Search.GP.StoppingCriterion;
+using Italbytz.AI.Search.EA.Individuals;
+
+namespace Italbytz.AI.Search.EA.SearchSpace;
 
 /// <summary>
-/// Defines a stopping criterion for Genetic Programming (GP) algorithms.
+///     Defines a search space for genetic programming algorithms.
 /// </summary>
 /// <remarks>
-/// This interface provides a contract for implementing various stopping conditions
-/// that can terminate a GP run. Examples include reaching a maximum number of 
-/// generations, finding a solution with acceptable fitness, or running for a 
-/// specified amount of time.
+///     A search space provides methods to generate random genotypes and initial
+///     populations
+///     for genetic programming algorithms.
 /// </remarks>
-public interface IStoppingCriterion
+public interface ISearchSpace
 {
-    public bool IsMet();
+    IGenotype GetRandomGenotype();
+    IIndividualList GetAStartingPopulation();
 }

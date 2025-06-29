@@ -6,19 +6,19 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-using Italbytz.AI.Search.GP.Individuals;
-
-namespace Italbytz.AI.Search.GP.SearchSpace;
+namespace Italbytz.AI.Search.EA.Initialization;
 
 /// <summary>
-/// Defines a search space for genetic programming algorithms.
+///     Defines an interface for initialization operators in genetic programming.
 /// </summary>
 /// <remarks>
-/// A search space provides methods to generate random genotypes and initial populations
-/// for genetic programming algorithms.
+///     Initialization operators are responsible for creating the initial
+///     population
+///     of individuals in genetic programming algorithms. This interface extends
+///     the
+///     base <see cref="IOperator" /> interface to categorize initialization
+///     methods.
 /// </remarks>
-public interface ISearchSpace
+public interface IInitialization : IOperator
 {
-    IGenotype GetRandomGenotype();
-    IIndividualList GetAStartingPopulation();
 }

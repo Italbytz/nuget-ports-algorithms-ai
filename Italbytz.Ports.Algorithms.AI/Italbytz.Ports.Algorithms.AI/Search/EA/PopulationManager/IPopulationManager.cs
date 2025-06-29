@@ -6,22 +6,22 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-using Italbytz.AI.Search.GP.Individuals;
-using Italbytz.AI.Search.GP.Initialization;
+using Italbytz.AI.Search.EA.Individuals;
+using Italbytz.AI.Search.EA.Initialization;
 
-namespace Italbytz.AI.Search.GP.PopulationManager;
+namespace Italbytz.AI.Search.EA.PopulationManager;
 
 /// <summary>
-/// Represents a manager for handling and manipulating a population of individuals in a genetic programming context.
+///     Represents a manager for handling and manipulating a population of
+///     individuals in a genetic programming context.
 /// </summary>
 /// <remarks>
-/// The population manager is responsible for initializing and maintaining a collection of individuals
-/// that form a population for genetic programming algorithms.
+///     The population manager is responsible for initializing and maintaining a
+///     collection of individuals
+///     that form a population for genetic programming algorithms.
 /// </remarks>
 public interface IPopulationManager
 {
     public IIndividualList Population { get; set; }
     public void InitPopulation(IInitialization initialization);
-
-    
 }

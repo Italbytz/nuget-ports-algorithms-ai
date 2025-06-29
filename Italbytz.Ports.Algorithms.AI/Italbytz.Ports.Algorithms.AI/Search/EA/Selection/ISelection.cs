@@ -6,16 +6,19 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.AI.Search.GP.Fitness;
+namespace Italbytz.AI.Search.EA.Selection;
 
 /// <summary>
-/// Represents a static, single-objective fitness function for genetic programming.
+///     Defines an interface for selection operations in genetic programming.
 /// </summary>
 /// <remarks>
-/// A static single-objective fitness function evaluates the fitness of an individual
-/// based on a single criterion.
+///     The selection operator is responsible for choosing individuals from the
+///     population
+///     for reproduction based on their fitness. This interface extends
+///     <see cref="IOperator" />
+///     to provide selection-specific functionality.
 /// </remarks>
-public interface
-    IStaticSingleObjectiveFitnessFunction : IFitnessFunction
+public interface ISelection : IOperator
 {
+    public int Size { get; set; }
 }

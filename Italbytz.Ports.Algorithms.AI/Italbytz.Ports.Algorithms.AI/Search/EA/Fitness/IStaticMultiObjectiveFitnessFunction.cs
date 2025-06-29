@@ -6,13 +6,16 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-namespace Italbytz.AI.Search.GP.Fitness;
+namespace Italbytz.AI.Search.EA.Fitness;
 
 /// <summary>
-/// Represents a static multi-objective fitness function for genetic programming.
+///     Represents a static multi-objective fitness function for genetic
+///     programming.
 /// </summary>
 /// <remarks>
-/// A static multi-objective fitness function evaluates individuals based on multiple objectives. It provides a way to measure the quality of solutions against multiple criteria simultaneously.
+///     A static multi-objective fitness function evaluates individuals based on
+///     multiple objectives. It provides a way to measure the quality of solutions
+///     against multiple criteria simultaneously.
 /// </remarks>
 public interface
     IStaticMultiObjectiveFitnessFunction : IFitnessFunction

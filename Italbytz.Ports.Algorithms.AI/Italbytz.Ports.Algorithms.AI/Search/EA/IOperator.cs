@@ -6,21 +6,24 @@
 // Michael Leifhelm, Kai Plociennik, Heiko Roeglin, Andrea Schweer, 
 // Dirk Sudholt, Stefan Tannenbaum, Ingo Wegener
 
-using Italbytz.AI.Search.GP.Individuals;
+using System.Threading.Tasks;
+using Italbytz.AI.Search.EA.Fitness;
+using Italbytz.AI.Search.EA.Individuals;
 
-namespace Italbytz.AI.Search.GP;
+namespace Italbytz.AI.Search.EA;
 
 /// <summary>
-/// An operator that processes indiviuals. 
+///     An operator that processes indiviuals.
 /// </summary>
 public interface IOperator
 {
     /// <summary>
-    /// Computes the output of the operator from the input.
-    /// Must return an array of IndividualList.
+    ///     Computes the output of the operator from the input.
+    ///     Must return an array of IndividualList.
     /// </summary>
     /// <param name="individuals">Input individuals</param>
+    /// <param name="fitnessFunction">The used fitness function</param>
     /// <returns>Output individuals</returns>
-    public IIndividualList Process(IIndividualList individuals);
+    public Task<IIndividualList>? Process(Task<IIndividualList> individuals,
+        IFitnessFunction fitnessFunction);
 }
-
